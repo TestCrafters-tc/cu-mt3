@@ -164,7 +164,7 @@ const questions = [
     {
         "id": 24,
         "text": "নিম্নের কোনটি মিশ্রণ নয়? / Which of the following is not a mixture?",
-        "options": ["সমুদ্রের পানি - Seawater", "কাদামাটি - Clay", "বায়ু - Air", "প্রোপেন ১,২,৩- ট্রাইওল - Propene 1,2,3-triol"],
+        "options": ["সমুদ্রের পানি - Seawater", "কাদামাটি - Clay", "বায়ু - Air", "প্রোপেন ১,২,৩- ট্রাইওল ( Propene 1,2,3-triol)"],
         "correctAnswer": 3,
         "points": 1
     },
@@ -339,7 +339,7 @@ const questions = [
     {
         "id": 48,
         "text": "ইয়ং এর গুণাঙ্কের মাত্রা সমীকরণ............। / The dimensional equation for Young's modulus is _______.",
-        "options": ["[MLT⁻²]", "[ML⁻¹T⁻¹]", "[ML⁻1T²]", "[MLT⁻³]"],
+        "options": ["[MLT⁻²]", "[ML⁻¹T⁻¹]", "[ML-1T-2]", "[MLT⁻³]"],
         "correctAnswer": 2,
         "points": 1
     },
@@ -409,7 +409,7 @@ const questions = [
     {
         "id": 58,
         "text": "কোনটি কোষীয় বর্জ্য পদার্থ? / Which of these is a cellular waste product?",
-        "options": ["শর্করা (Carbohydrates)", "নেকটার (Nectar)", "পিগমেন্ট (Pigment)", "অ্যালকালয়েড (Alkaloids)"],
+        "options": ["Enzymes", "Nectar", "Pigment", "Alkaloids"],
         "correctAnswer": 3,
         "points": 1
     },
@@ -513,7 +513,7 @@ const questions = [
     },
     {
         "id": 73,
-        "text": "মানবদেহের কোন স্থানে হেনলির লুপ অবস্থিত? / Where is the loop of Henle located in the human body?",
+        "text": "মানবদেহের কোন স্থানে হেনলির লুপ অবস্থিত? / Where is the loop of Henley located in the human body?",
         "options": ["হৃৎপিন্ড (Heart)", "ফুসফুস (Lungs)", "কিডনী (Kidney)", "যকৃত (Liver)"],
         "correctAnswer": 2,
         "points": 1
@@ -583,28 +583,28 @@ const questions = [
     },
     {
         "id": 83,
-        "text": "Recent data from the World Health Organisation (WHO) shows that COVID infections did not spare _____. a. nobody b. everybody c. anybody d. somebody",
+        "text": "Recent data from the World Health Organisation (WHO) shows that COVID infections did not spare _____.  ",
         "options": ["nobody", "everybody", "anybody", "somebody"],
         "correctAnswer": 2,
         "points": 1
     },
     {
         "id": 84,
-        "text": "_____ you like a cup of tea? a. Should b. Shall c. Would d. Could",
+        "text": "_____ you like a cup of tea? ",
         "options": ["Should", "Shall", "Would", "Could"],
         "correctAnswer": 2,
         "points": 1
     },
     {
         "id": 85,
-        "text": "Travelling alone at night is not a _____ option. a. versatile b. veritable c. viable d. verifiable",
+        "text": "Travelling alone at night is not a _____ option. ",
         "options": ["versatile", "veritable", "viable", "verifiable"],
         "correctAnswer": 2,
         "points": 1
     },
     {
         "id": 86,
-        "text": "People who are usually ill-tempered are _____. a. perhaps unhappy in life b. quite impudent c. guilty of crimes d. very self-centered",
+        "text": "People who are usually ill-tempered are _____. ",
         "options": ["perhaps unhappy in life", "quite impudent", "guilty of crimes", "very self-centered"],
         "correctAnswer": 0,
         "points": 1
