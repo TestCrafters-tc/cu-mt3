@@ -13,7 +13,7 @@ body {
 
 .exam-container {
     min-height: 100vh;
-    padding-bottom: 80px;
+    padding-bottom: 200px;  /* Increased padding for enough space */
 }
 
 .header {
@@ -193,7 +193,6 @@ body {
     font-weight: 500;
     cursor: pointer;
     display: block;
-    margin: 2rem auto;
     transition: transform 0.2s, box-shadow 0.2s;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
@@ -296,11 +295,32 @@ body {
         justify-content: center;
     }
 
-    /* Mobile Fix for Submit Button */
+    /* Mobile Fix for Buttons */
+    .buttons-container {
+        position: fixed;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        z-index: 100;
+    }
+
+    .attempted-button {
+        margin-bottom: 10px;  /* Space between Attempted and the other buttons */
+    }
+
+    .buttons-row {
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+
+    .timer-button,
     .submit-button {
-        padding: 0.75rem 1.5rem; /* Reduce padding on mobile */
-        font-size: 1rem;           /* Adjust font size */
-        margin: 2rem auto;         /* Ensure margin is still centered */
+        flex: 1;
     }
 }
-
